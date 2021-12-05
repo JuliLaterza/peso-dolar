@@ -21,7 +21,7 @@ dolar_input = Entry(frame,width=7, textvariable=dolar)
 dolar_input.grid(column=1,row=0)
 
 peso = StringVar()
-peso.set('24242')
+peso.set('0')
 Label(frame, textvariable=peso).grid(column=1,row=1)
 
 
